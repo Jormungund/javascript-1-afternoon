@@ -102,7 +102,6 @@ var ruff = dog.bark();
 //Code Here
 var looper = (arr) => {
   var mySum = 0;
-  var total = [];
   for(i=0;i<arr.length;i++){
     if (arr[i]%2 !== 0){
       mySum += arr[i];
